@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Library</title>
+    <link rel="stylesheet" href="css/style.css"> 
+
+</head>
+<body>
+    <header>The Library at Crescent</header>
+    <a href="index.html"><img src="images/crescent.jpg" alt="Library Logo" class="top-right-logo">
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li> <a href="clubs.html">Clubs</a></li>
+            <li> <a href="botm.html">Book of the Month</a></li>
+            <li> <a href="reserve.html">Reserve a Book</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+<fieldset>
+  <legend>Your Information</legend>
+ <h2 style="text-align:center;">Contact Us</h2>
+
+<form action="thankyou.html" method="POST" style="width:300px; margin:auto;">
+
+    <label>Name:</label><br>
+    <input type="text" name="name" required style="width:100%;"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required style="width:100%;"><br><br>
+
+    <label>Phone:</label><br>
+    <input type="tel" name="number" required style="width:100%;"><br><br>
+
+    <label>What Books Are You Looking At?:</label><br>
+    <textarea name="message" required style="width:100%; height:100px;"></textarea><br><br>
+
+
+
+</fieldset>
+
+  <h2>Pickup Location</h2>
+  <fieldset>
+    <legend>Library</legend>
+        <ul>
+            <li><input type="radio" name="location" value="orlando">Orlando</li>
+            <li><input type="radio" name="location" value="casselberry">Casselberry</li>
+            <li><input type="radio" name="location" value="longwood">Longwood</li>
+            <li><input type="radio" name="location" value="altamonte">Altamonte Springs</li>
+            <li><input type="radio" name="location" value="sanford">Sanford</li>
+            <li><input type="radio" name="location" value="lakemary">Lake Mary</li>
+        </ul>
+</fieldset>
+
+<h2>How many books: (Limit 5)</h2>
+<fieldset>
+<select name = "book" size="1">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+</fieldset>
+
+<input type="submit" style="width:100%; padding:8px;"></button>
+
+</form>
+
+<footer>
+    <p>The Library at Crescent&copy; 2025
+        <br>Designed by Matthew Acevedo
+        <br>Fictitious Site, All Information is not Real
+    </p>
+</footer>
+
+</body>
+</html>
